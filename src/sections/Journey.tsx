@@ -84,7 +84,7 @@ export default function Journey() {
 
   return (
     <section id="journey" className="py-14 px-6">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         {/* Heading */}
         <div
           ref={ref}

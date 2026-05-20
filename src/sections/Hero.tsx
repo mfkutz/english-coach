@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-indigo-600/6 rounded-full blur-[100px]" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 w-full py-12">
+      <div className="max-w-4xl mx-auto px-6 w-full py-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 
           {/* Text content */}

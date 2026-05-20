@@ -72,7 +72,7 @@ export default function Roadmap() {
       {/* Grid bg */}
       <div className="absolute inset-0 bg-grid opacity-60 pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-4xl mx-auto relative">
         {/* Heading */}
         <div
           ref={ref}

@@ -36,7 +36,7 @@ export default function HowItWorks() {
       {/* BG accent */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto relative">
+      <div className="max-w-4xl mx-auto relative">
         {/* Heading */}
         <div
           ref={ref}
