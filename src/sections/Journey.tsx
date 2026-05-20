@@ -83,12 +83,12 @@ export default function Journey() {
   const { ref, inView } = useInView()
 
   return (
-    <section id="journey" className="py-28 px-6">
+    <section id="journey" className="py-14 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div
           ref={ref}
-          className={`text-center mb-16 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
+          className={`text-center mb-10 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
         >
           <p className="text-indigo-400 text-sm font-mono font-medium uppercase tracking-widest mb-4">
             El journey completo

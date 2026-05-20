@@ -68,7 +68,7 @@ export default function Roadmap() {
   const { ref, inView } = useInView(0.1)
 
   return (
-    <section id="roadmap" className="py-28 px-6 bg-[#05050f] relative overflow-hidden">
+    <section id="roadmap" className="py-14 px-6 bg-[#05050f] relative overflow-hidden">
       {/* Grid bg */}
       <div className="absolute inset-0 bg-grid opacity-60 pointer-events-none" />
 
@@ -76,7 +76,7 @@ export default function Roadmap() {
         {/* Heading */}
         <div
           ref={ref}
-          className={`text-center mb-16 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
+          className={`text-center mb-10 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
         >
           <p className="text-indigo-400 text-sm font-mono font-medium uppercase tracking-widest mb-4">
             Roadmap público

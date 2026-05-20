@@ -2,14 +2,14 @@ import PhoneMockup from '../components/PhoneMockup'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-grid pt-16">
+    <section className="relative flex items-center overflow-hidden bg-grid pt-16">
       {/* Radial glow */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[500px] bg-indigo-500/8 rounded-full blur-[120px]" />
         <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-indigo-600/6 rounded-full blur-[100px]" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 w-full py-24">
+      <div className="max-w-6xl mx-auto px-6 w-full py-12">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 
           {/* Text content */}
