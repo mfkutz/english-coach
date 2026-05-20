@@ -3,7 +3,7 @@ import { Zap } from 'lucide-react'
 export default function Footer() {
   return (
     <footer id="download" className="py-20 px-6 border-t border-[#0f0f2e]">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2 space-y-4">

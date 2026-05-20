@@ -32,15 +32,15 @@ export default function HowItWorks() {
   const { ref, inView } = useInView()
 
   return (
-    <section id="how-it-works" className="py-14 px-6 relative overflow-hidden">
+    <section id="how-it-works" className="py-8 px-6 relative overflow-hidden">
       {/* BG accent */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="max-w-4xl mx-auto relative">
+      <div className="max-w-6xl mx-auto relative">
         {/* Heading */}
         <div
           ref={ref}
-          className={`text-center mb-10 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
+          className={`text-center mb-6 out-of-view transition-all duration-700 ${inView ? 'in-view' : ''}`}
         >
           <p className="text-indigo-400 text-sm font-mono font-medium uppercase tracking-widest mb-4">
             Cómo funciona
